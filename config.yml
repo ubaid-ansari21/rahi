@@ -40,7 +40,7 @@ languages:
     menu:
       main:
       - name: "صفحۂ اول"
-        pageRef: /ur
+        pageRef: /
         weight: 3
 
       - name: "مضامین"
