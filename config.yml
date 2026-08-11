@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://ubaid-ansari21.github.io/rahi/"
 title: Aamer Rahi
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
 theme: [PaperMod]
