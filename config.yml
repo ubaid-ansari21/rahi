@@ -56,13 +56,13 @@ languages:
         Content: >
           میرے ذاتی بلاگ میں خوش آمدید، جہاں میں ٹیکنالوجی،
           لینکس، کیوبرنیٹیز اور دیگر موضوعات پر لکھتا ہوں۔
-    socialIcons: # optional
-      - name: "twitter"
-        url: "<link>"
-      - name: "facebook"
-        url: "<link2>"
-      - name: "linkedin"
-        url: "<link2>"
+      socialIcons: # optional
+        - name: "twitter"
+          url: "<link>"
+        - name: "facebook"
+          url: "<link2>"
+        - name: "linkedin"
+          url: "<link2>"
 
 outputs:
   home:
