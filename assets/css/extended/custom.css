@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Jameel";
+    src: url("/fonts/JameelNooriNastaleeq-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body {
+    font-family: "Jameel", serif !important;
+}
+
+body {
+    text-align: justify;
+}
+
+article {
+    line-height: 2.5;
+    font-size: clamp(1rem, 4vw + 1rem, 1.5rem);
+}

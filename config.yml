@@ -1,0 +1,64 @@
+baseURL: "http://localhost:1313/"
+title: Aamer Rahi
+copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
+theme: [PaperMod]
+
+languages:
+  en:
+    label: "English"
+    direction: ltr
+    weight: 1
+    menu:
+      main:
+        - name: About
+          url: /about
+          weight: 1
+        - name: Posts
+          url: /posts
+          weight: 2
+        - name: Search
+          url: /search
+          weight: 3
+    params:
+      homeInfoParams:
+        Title: "Welcome 👋"
+        Content: >
+          Welcome to my personal blog where I write about technology,
+          Kubernetes, Linux, and more.
+      socialIcons: # optional
+      - name: "twitter"
+        url: "<link>"
+      - name: "facebook"
+        url: "<link2>"
+      - name: "linkedin"
+        url: "<link2>"
+  ur:
+    label: "Urdu"
+    direction: rtl
+    weight: 2
+    title: 'عامر راہی'
+    menu:
+      main:
+      - name: "صفحۂ اول"
+        pageRef: /ur
+        weight: 3
+
+      - name: "مضامین"
+        pageRef: /posts
+        weight: 2
+
+      - name: "ہمارے بارے میں"
+        pageRef: /about
+        weight: 1
+    params:
+      homeInfoParams:
+        Title: "السلام علیکم 👋"
+        Content: >
+          میرے ذاتی بلاگ میں خوش آمدید، جہاں میں ٹیکنالوجی،
+          لینکس، کیوبرنیٹیز اور دیگر موضوعات پر لکھتا ہوں۔
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
