@@ -40,22 +40,29 @@ languages:
     menu:
       main:
       - name: "صفحۂ اول"
-        pageRef: /
-        weight: 3
+        url: ur/
+        weight: 1
 
       - name: "مضامین"
-        pageRef: /posts
+        url: posts/
         weight: 2
 
       - name: "ہمارے بارے میں"
-        pageRef: /about
-        weight: 1
+        url: about/
+        weight: 3
     params:
       homeInfoParams:
         Title: "السلام علیکم 👋"
         Content: >
           میرے ذاتی بلاگ میں خوش آمدید، جہاں میں ٹیکنالوجی،
           لینکس، کیوبرنیٹیز اور دیگر موضوعات پر لکھتا ہوں۔
+    socialIcons: # optional
+      - name: "twitter"
+        url: "<link>"
+      - name: "facebook"
+        url: "<link2>"
+      - name: "linkedin"
+        url: "<link2>"
 
 outputs:
   home:
